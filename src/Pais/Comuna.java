@@ -1,3 +1,4 @@
+package Pais;
 public class Comuna {
     private int id;
     private String nombre;
