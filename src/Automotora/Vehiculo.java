@@ -1,11 +1,9 @@
 package Automotora;
-
 public abstract class Vehiculo {
+    String fabricante;
+    String modelo;
 
-    protected String fabricante;
-    protected String modelo;
-
-    public Vehiculo() {
+    public Vehiculo(){
     }
 
     public Vehiculo(String fabricante, String modelo) {
@@ -14,4 +12,5 @@ public abstract class Vehiculo {
     }
 
     public abstract int maximaVelocidad();
+
 }
