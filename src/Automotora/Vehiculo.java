@@ -11,6 +11,6 @@ public abstract class Vehiculo {
         this.modelo = modelo;
     }
 
-    public abstract int maximaVelocidad();
+    // public abstract int maximaVelocidad();
 
 }
